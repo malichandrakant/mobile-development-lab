@@ -29,7 +29,7 @@ This application demonstrates how to use SharedPreferences in Android Studio. It
 ![Main Screen](D:\LoginMemoryApp\screenshot\main_screen.png)
 
 ## Folder Structure
-SharedPreferencesApp/
+LoginMemoryApp/
 ├── app/
 ├── screenshot/
 │   ├── main_screen.png
