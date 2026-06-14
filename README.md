@@ -8,7 +8,7 @@ This application demonstrates how to use SharedPreferences in Android Studio. It
 
 ## Tools Used
 - Android Studio  
-- Java / Kotlin  
+- Java 
 - XML Layout  
 
 ## Working
