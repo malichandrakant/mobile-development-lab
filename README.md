@@ -26,7 +26,7 @@ This application demonstrates how to use SharedPreferences in Android Studio. It
 ## Output Screenshots
 
 ### Main Screen
-![Main Screen](app/screenshot/main_screen.png)
+![Main Screen](src/screenshot/main_screen.png)
 
 ## Folder Structure
 LoginMemoryApp/
