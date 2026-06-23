@@ -1,43 +1,46 @@
-# SharedPreferences Practical (Android)
+# BMI Calculator App
 
-## Aim
-To implement SharedPreferences in Android to store and retrieve simple key-value data locally.
+A simple Android BMI (Body Mass Index) Calculator built using Java and Android Studio.
 
-## Description
-This application demonstrates how to use SharedPreferences in Android Studio. It allows the user to enter data, save it locally, and retrieve it even after closing and reopening the app.
+## Features
+- Calculate BMI using weight and height
+- Supports height in feet and inches
+- Displays BMI category:
+    - Underweight
+    - Healthy
+    - Overweight
+- Simple and user-friendly interface
 
-## Tools Used
-- Android Studio  
-- Java 
-- XML Layout  
+## Screenshot
+### BMI Result
 
-## Working
-- User enters input data in EditText  
-- Data is saved using SharedPreferences  
-- Data is retrieved and displayed after reopening the app  
+![BMI Result](screenshots/img.png)
 
-## Methods Used
-- getSharedPreferences()
-- SharedPreferences.Editor
-- putString()
-- apply()
-- getString()
+## Formula Used
 
-## Output Screenshots
+BMI = Weight (kg) / Height² (m)
 
-### Main Screen
-![Main Screen](src/screenshot/main_screen.png)
+## Built With
 
-## Folder Structure
-LoginMemoryApp/
-├── app/
-│    ├── screenshot/
-│    │     └── main_screen.png
-├── src/
-└── README.md
+- Java
+- Android Studio
+- XML Layouts
 
-## Result
-SharedPreferences is successfully implemented to store and retrieve data in the Android application.
+## Project Structure
 
-## Conclusion
-SharedPreferences is useful for storing small amounts of persistent data such as user settings and simple app data.
+```text
+app/
+ ├── java/
+ ├── res/
+ │   ├── layout/
+ │   ├── values/
+ │   └── drawable/
+```
+2. Open in Android Studio
+
+3. Sync Gradle
+
+4. Run on Emulator or Android Device
+
+## Author
+Chandrakant Mali
