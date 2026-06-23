@@ -14,7 +14,7 @@ A simple Android BMI (Body Mass Index) Calculator built using Java and Android S
 ## Screenshot
 ### BMI Result
 
-![BMI Result](screenshots/img.png)
+![BMI Result](screenshot/img.png)
 
 ## Formula Used
 
