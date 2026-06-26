@@ -1,46 +1,50 @@
-# BMI Calculator App
+# SMS App Android
 
-A simple Android BMI (Body Mass Index) Calculator built using Java and Android Studio.
+A simple Android SMS application built using Java and Android SDK.
+
+The application demonstrates sending SMS messages using Android's SmsManager API and handling runtime permissions.
 
 ## Features
-- Calculate BMI using weight and height
-- Supports height in feet and inches
-- Displays BMI category:
-    - Underweight
-    - Healthy
-    - Overweight
-- Simple and user-friendly interface
 
-## Screenshot
-### BMI Result
+- Send SMS messages
+- Runtime SMS permission handling
+- Phone number validation
+- Display sent messages on screen
+- Simple Android UI
 
-![BMI Result](screenshot/img.png)
+## Screenshots
 
-## Formula Used
+<img src="screenshot/sms-app-demo.png" width="300">
 
-BMI = Weight (kg) / Height² (m)
-
-## Built With
+## Tech Stack
 
 - Java
+- Android SDK
 - Android Studio
-- XML Layouts
+- Gradle
+
+## Android Components Used
+
+### Activity
+
+Handles UI interaction and user actions.
+
+### SmsManager
+
+Used to send SMS messages through the device SIM.
+
+### Runtime Permissions
+
+Handles dangerous permissions:
+
+- SEND_SMS
+- RECEIVE_SMS
+- READ_SMS
 
 ## Project Structure
-
-```text
-app/
- ├── java/
- ├── res/
- │   ├── layout/
- │   ├── values/
- │   └── drawable/
-```
-2. Open in Android Studio
-
-3. Sync Gradle
-
-4. Run on Emulator or Android Device
-
-## Author
-Chandrakant Mali
+app
+└── src
+└── main
+├── java
+├── res
+└── AndroidManifest.xml

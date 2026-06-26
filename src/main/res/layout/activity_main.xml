@@ -1,65 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
     android:orientation="vertical"
-    android:padding="24dp"
-    android:gravity="center"
-    android:background="#F5F5F5"
-    tools:context=".MainActivity">
+    android:padding="20dp">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="BMI Calculator"
-        android:textSize="28sp"
-        android:textStyle="bold"
-        android:layout_marginBottom="30dp" />
 
     <EditText
-        android:id="@+id/etWeight"
+        android:id="@+id/phoneNumber"
+        android:hint="Phone Number"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Weight (kg)"
-        android:inputType="numberDecimal"
-        android:padding="12dp"
-        android:layout_marginBottom="12dp" />
+        android:layout_height="wrap_content"/>
+
 
     <EditText
-        android:id="@+id/etHeight"
+        android:id="@+id/message"
+        android:hint="Message"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Height (feet)"
-        android:inputType="number"
-        android:padding="12dp"
-        android:layout_marginBottom="12dp" />
+        android:layout_height="wrap_content"/>
 
-    <EditText
-        android:id="@+id/etHeight2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Height (inches)"
-        android:inputType="number"
-        android:padding="12dp"
-        android:layout_marginBottom="20dp" />
 
     <Button
-        android:id="@+id/btnCalculate"
+        android:id="@+id/sendButton"
+        android:text="Send SMS"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Calculate BMI"
-        android:textSize="18sp"
-        android:padding="12dp" />
+        android:layout_height="wrap_content"/>
+
 
     <TextView
-        android:id="@+id/txtResult"
+        android:id="@+id/smsStatus"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:gravity="center"
-        android:textSize="22sp"
-        android:textStyle="bold"
-        android:padding="16dp" />
+        android:text="Messages:"
+        android:textSize="18sp"/>
 
 </LinearLayout>

@@ -1,6 +1,3 @@
 <resources>
-    <string name="app_name">BMI_APP</string>
-    <string name="hint_wt">Enter your weight</string>
-    <string name="hint_htF">Enter your Height(in Ft)</string>
-    <string name="hint_htI">Enter your Height(in In)</string>
+    <string name="app_name">SMSAPP</string>
 </resources>
