@@ -14,7 +14,7 @@ The application demonstrates sending SMS messages using Android's SmsManager API
 
 ## Screenshots
 
-<img src="screenshot/sms-app-demo.png" width="300">
+<img src="screenshot/img.png" width="300">
 
 ## Tech Stack
 
