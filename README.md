@@ -2,6 +2,8 @@
 
 A modern Android Weather App built using **Java** that provides real-time weather information with a clean and user-friendly interface.
 
+---
+
 ## 📱 Features
 
 - 🌤️ Real-time weather updates
@@ -12,12 +14,14 @@ A modern Android Weather App built using **Java** that provides real-time weathe
 - 📱 Beautiful Splash Screen
 - 🎨 Simple and Responsive UI
 
-**Splash Screen Demo**
+---
 
-| Splash Screen | 
-[▶️ Watch Demo Video](screenshoot/demo.mp4)
+## 🎥 Splash Screen Demo
+
+▶️ [Watch Demo Video](screenshoot/demo.mp4)
 
 ## 🛠️ Tech Stack
+
 - Java
 - Android SDK
 - XML
