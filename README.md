@@ -17,7 +17,7 @@ A modern Android Weather App built using **Java** that provides real-time weathe
 ---
 **Splash Screen Demo**
 
-[▶️ Watch Demo Video](screenshoot/demo.mp4)
+▶️ [Watch Weather App Demo](screenshots/demo.mp4)
 
 ## 🛠️ Tech Stack
 
