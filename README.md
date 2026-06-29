@@ -16,7 +16,7 @@ A modern Android Weather App built using **Java** that provides real-time weathe
 
 | Splash Screen | Home Screen |
 |---------------|-------------|
-| ![Splash](screenshots/splash.png) | ![Home](screenshots/home.png) |
+| ![Splash](screenshoot/demo.mp4)|
 
 ## 🛠️ Tech Stack
 - Java
