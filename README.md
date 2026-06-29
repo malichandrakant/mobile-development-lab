@@ -1,50 +1,37 @@
-# SMS App Android
+# 🌦️ Weather App
 
-A simple Android SMS application built using Java and Android SDK.
+A modern Android Weather App built using **Java** that provides real-time weather information with a clean and user-friendly interface.
 
-The application demonstrates sending SMS messages using Android's SmsManager API and handling runtime permissions.
+## 📱 Features
 
-## Features
+- 🌤️ Real-time weather updates
+- 📍 Current location weather
+- 🔍 Search weather by city
+- 🌡️ Temperature, Humidity & Wind Speed
+- 🌅 Sunrise & Sunset information
+- 📱 Beautiful Splash Screen
+- 🎨 Simple and Responsive UI
 
-- Send SMS messages
-- Runtime SMS permission handling
-- Phone number validation
-- Display sent messages on screen
-- Simple Android UI
+**Splash Screen Demo**
 
-## Screenshots
+| Splash Screen | Home Screen |
+|---------------|-------------|
+| ![Splash](screenshots/splash.png) | ![Home](screenshots/home.png) |
 
-<img src="screenshot/img.png" width="300">
-
-## Tech Stack
-
+## 🛠️ Tech Stack
 - Java
 - Android SDK
-- Android Studio
-- Gradle
+- XML
+## 📂 Project Structure
 
-## Android Components Used
-
-### Activity
-
-Handles UI interaction and user actions.
-
-### SmsManager
-
-Used to send SMS messages through the device SIM.
-
-### Runtime Permissions
-
-Handles dangerous permissions:
-
-- SEND_SMS
-- RECEIVE_SMS
-- READ_SMS
-
-## Project Structure
-app
-└── src
-└── main
-├── java
-├── res
+app/
+├── java/
+├── res/
+│   ├── drawable/
+│   ├── layout/
+│   ├── values/
+│   └── mipmap/
 └── AndroidManifest.xml
+
+## 👨‍💻 Author
+**Chandrakant Mali**

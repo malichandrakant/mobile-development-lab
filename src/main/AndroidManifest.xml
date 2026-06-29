@@ -3,32 +3,23 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
 
-    <uses-feature
-        android:name="android.hardware.telephony"
-        android:required="false"/>
-
-
-    <uses-permission android:name="android.permission.SEND_SMS"/>
-    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
-    <uses-permission android:name="android.permission.READ_SMS"/>
+    <!-- Location permission -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
 
 
     <application
+
         android:allowBackup="true"
-        android:dataExtractionRules="@xml/data_extraction_rules"
-        android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.SMSAPP"
-        android:usesCleartextTraffic="false">
+        android:theme="@style/Theme.WeatherApp">
 
 
         <activity
-            android:name=".MainActivity"
-            android:exported="true"
-            android:windowSoftInputMode="adjustResize">
+            android:name=".SplashActivity"
+            android:exported="true">
 
 
             <intent-filter>
@@ -43,22 +34,20 @@
         </activity>
 
 
-        <receiver
-            android:name=".SmsReceiver"
-            android:exported="true"
-            android:permission="android.permission.BROADCAST_SMS">
+
+        <activity
+            android:name=".PermissionActivity"
+            android:exported="false"/>
 
 
-            <intent-filter android:priority="999">
 
-                <action android:name="android.provider.Telephony.SMS_RECEIVED"/>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"/>
 
-            </intent-filter>
-
-
-        </receiver>
 
 
     </application>
+
 
 </manifest>
