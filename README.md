@@ -1,39 +1,35 @@
-# 🌦️ Weather App
+# Google Map Example (OpenStreetMap)
 
-A modern Android Weather App built using **Java** that provides real-time weather information with a clean and user-friendly interface.
+A simple Android application built using Java and XML that integrates OpenStreetMap (OSM) using the osmdroid library.
 
----
+## Features
 
-## 📱 Features
+- OpenStreetMap integration
+- Zoom and pan support
+- Marker at Pune City
+- Java + XML
+- No Google Maps API key required
+- Completely free
 
-- 🌤️ Real-time weather updates
-- 📍 Current location weather
-- 🔍 Search weather by city
-- 🌡️ Temperature, Humidity & Wind Speed
-- 🌅 Sunrise & Sunset information
-- 📱 Beautiful Splash Screen
-- 🎨 Simple and Responsive UI
-
----
-**Splash Screen Demo**
-
-▶️ [Watch Weather App Demo](screenshoot/demo.mp4)
-
-## 🛠️ Tech Stack
+## Technologies Used
 
 - Java
-- Android SDK
 - XML
-## 📂 Project Structure
+- Android Studio
+- osmdroid
+- OpenStreetMap
 
-app/
-├── java/
-├── res/
-│   ├── drawable/
-│   ├── layout/
-│   ├── values/
-│   └── mipmap/
-└── AndroidManifest.xml
+## Screenshot
 
-## 👨‍💻 Author
-**Chandrakant Mali**
+![Home Screen](screenshots/home_screen.png)
+
+## How to Run
+
+1. Clone this repository.
+2. Open the project in Android Studio.
+3. Sync Gradle.
+4. Run the application on an emulator or Android device.
+
+## Author
+
+Chandrakant Mali
