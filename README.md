@@ -21,7 +21,7 @@ A simple Android application built using Java and XML that integrates OpenStreet
 
 ## Screenshot
 
-![Home Screen](screenshots/home_screen.png)
+![Home Screen](screenshot/img.png)
 
 ## How to Run
 
